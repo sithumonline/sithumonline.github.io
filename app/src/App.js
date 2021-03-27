@@ -18,7 +18,7 @@ function App() {
             <div class="bg-gradient-to-r from-green-400 to-blue-500 flex flex-col justify-center">
                 <div className="flex justify-center">
                     <div>
-                        <img src={person_1} className="h-auto sm:max-w-sm md:max-w-md xl:max-w-xl bg-white p-10"/>
+                        <img src={person_1} className="h-auto sm:max-w-sm md:max-w-md xl:max-w-xl bg-white p-10 shadow-lg"/>
                     </div>
                 </div>
             </div>
