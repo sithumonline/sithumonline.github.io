@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     FaDev,
-    FaDocker,
+    FaMedium,
     FaFacebookMessenger,
     FaFacebookSquare,
     FaGithubSquare,
@@ -46,8 +46,8 @@ function App() {
                                     ><FaStackOverflow className="h-28 w-28"/></a>
                                 </div>
                                 <div>
-                                    <a href="https://hub.docker.com/u/ebonynon" target="_blank"
-                                    ><FaDocker className="h-28 w-28"/></a>
+                                    <a href="https://medium.com/@sithumonline" target="_blank"
+                                    ><FaMedium className="h-28 w-28"/></a>
                                 </div>
                                 <div>
                                     <a href="https://www.linkedin.com/in/sithumonline" target="_blank"
