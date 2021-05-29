@@ -38,7 +38,7 @@ function App() {
                                     ><FaTwitterSquare className="h-28 w-28"/></a>
                                 </div>
                                 <div>
-                                    <a href="https://dev.to/ebonynon" target="_blank"
+                                    <a href="https://dev.to/sithumonline" target="_blank"
                                     ><FaDev className="h-28 w-28"/></a>
                                 </div>
                                 <div>
