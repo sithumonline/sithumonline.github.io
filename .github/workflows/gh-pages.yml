@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: 13.x
 
+      - name: Install project
+        run: yarn install
+
       - name: Build project
         run: yarn build
 
