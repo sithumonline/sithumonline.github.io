@@ -10,7 +10,7 @@ import {
     FaStackOverflow,
     FaTwitterSquare
 } from 'react-icons/fa';
-import person_1 from './assets/images/sithum.jpg';
+import person_1 from './assets/images/Sithum.jpg';
 
 function App() {
     return (
