@@ -116,9 +116,14 @@ export default function Home() {
 
   return (
     <div class={tw`flex flex-col md:flex-row`}>
-      <div class={tw`w-full md:w-1/2 bg-gradient-to-r from-green-400 to-blue-500 flex flex-col justify-center p-10 md:p-0`}>
+      <div
+        class={tw`w-full md:w-1/2 bg-gradient-to-r from-green-400 to-blue-500 flex flex-col justify-center p-10 md:p-0`}
+      >
         <div class={tw`flex justify-center`}>
-          <div class={tw`group h-auto sm:max-w-sm md:max-w-md xl:max-w-lg shadow-lg bg-white/60 backdrop-blur-[5px] md:m-6 lg:m-10 p-5 md:p-10 rounded-3xl transform hover:-rotate-6 transition-all duration-300`}>
+          <div
+            class={tw`group h-auto sm:max-w-sm md:max-w-md xl:max-w-lg shadow-lg backdrop-blur-[5px] md:m-6 lg:m-10 p-5 md:p-10 rounded-3xl transform hover:-rotate-6 transition-all duration-300`}
+            style="background-color: #fff9;"
+          >
             <img
               id="image"
               src="sithum.jpg"
@@ -127,10 +132,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div class={tw`w-full md:w-1/2 min-h-[65vh] md:min-h-screen bg-[#121212] py-6 flex flex-col justify-center sm:py-12`}>
-        <div class={tw`group relative py-3 sm:max-w-xl sm:mx-auto m-10 p-5 md:py-3 mb-20 transform md:scale-[0.80] lg:scale-[1.03]`}>
-          <div class={tw`absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 shadow-lg transform -skew-y-3 md:-skey-y-6 sm:skew-y-0 -rotate-6 rounded-3xl group-hover:bg-gradient-to-l group-hover:rotate-6 transition-all duration-300`}></div>
-          <div class={tw`relative px-4 py-10 bg-white/60 backdrop-blur-[5px] shadow-lg rounded-3xl sm:p-20 group-hover:-rotate-6 transition-all duration-300`}>
+      <div
+        class={tw`w-full md:w-1/2 min-h-[65vh] md:min-h-screen bg-[#121212] py-6 flex flex-col justify-center sm:py-12`}
+      >
+        <div
+          class={tw`group relative py-3 sm:max-w-xl sm:mx-auto m-10 p-5 md:py-3 mb-20 transform md:scale-[0.80] lg:scale-[1.03]`}
+        >
+          <div
+            class={tw`absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 shadow-lg transform -skew-y-3 md:-skey-y-6 sm:skew-y-0 -rotate-6 rounded-3xl group-hover:bg-gradient-to-l group-hover:rotate-6 transition-all duration-300`}
+          ></div>
+          <div
+            class={tw`relative px-4 py-10 backdrop-blur-[5px] shadow-lg rounded-3xl sm:p-20 group-hover:-rotate-6 transition-all duration-300`}
+            style="background-color: #fff9;"
+          >
             <div class={tw`max-w-md mx-auto`}>
               <div class={tw`grid grid-rows-3 grid-cols-3 gap-4`}>
                 {icons.map((icon, index) => {
