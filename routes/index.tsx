@@ -146,7 +146,6 @@ export default function Home() {
             style="background-color: #fff9;"
           >
             <div class={tw`max-w-md mx-auto`}>
-              <h1>hello</h1>
               <div class={tw`grid grid-rows-3 grid-cols-3 gap-4`}>
                 {icons.map((icon, index) => {
                   return (
