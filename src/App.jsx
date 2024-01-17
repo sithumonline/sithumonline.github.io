@@ -37,7 +37,7 @@ function App() {
         Icon: FaLinkedin
     },
     {
-        uri: 'https://stackoverflow.com/users/10474938/sithum-online',
+        uri: 'https://stackoverflow.com/users/12165840/xeon',
         Icon: FaStackOverflow
     },
     {
