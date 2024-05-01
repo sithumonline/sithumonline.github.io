@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 
 import sithum from "./assets/images/sithum.jpg";
-import HuggingFace from "./huggingfacecopy";
+import HuggingFace from "./huggingface";
 
 function App() {
   const icons = [
