@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaDev,
   FaMedium,
-  FaFacebookMessenger,
   FaFacebookSquare,
   FaGithubSquare,
   FaInstagramSquare,
@@ -12,53 +11,58 @@ import {
 } from "react-icons/fa";
 
 import sithum from "./assets/images/sithum.jpg";
+import HuggingFace from "./huggingfacecopy";
 
 function App() {
-  
   const icons = [
     {
-        uri: 'https://github.com/sithumonline',
-        Icon: FaGithubSquare
+      uri: "https://github.com/sithumonline",
+      Icon: FaGithubSquare,
     },
     {
-        uri: 'https://medium.com/@sithumonline',
-        Icon: FaMedium
+      uri: "https://medium.com/@sithumonline",
+      Icon: FaMedium,
     },
     {
-        uri: 'https://www.facebook.com/sithumonline',
-        Icon: FaFacebookSquare
+      uri: "https://www.facebook.com/sithumonline",
+      Icon: FaFacebookSquare,
     },
     {
-        uri: 'https://www.instagram.com/sithumonline',
-        Icon: FaInstagramSquare
+      uri: "https://www.instagram.com/sithumonline",
+      Icon: FaInstagramSquare,
     },
     {
-        uri: 'https://www.linkedin.com/in/sithumonline',
-        Icon: FaLinkedin
+      uri: "https://www.linkedin.com/in/sithumonline",
+      Icon: FaLinkedin,
     },
     {
-        uri: 'https://stackoverflow.com/users/12165840/xeon',
-        Icon: FaStackOverflow
+      uri: "https://stackoverflow.com/users/12165840/xeon",
+      Icon: FaStackOverflow,
     },
     {
-        uri: 'https://twitter.com/sithumonline',
-        Icon: FaTwitterSquare
+      uri: "https://twitter.com/sithumonline",
+      Icon: FaTwitterSquare,
     },
     {
-        uri: 'https://dev.to/sithumonline',
-        Icon: FaDev
+      uri: "https://dev.to/sithumonline",
+      Icon: FaDev,
     },
     {
-        uri: 'https://www.messenger.com/t/sithumonline',
-        Icon: FaFacebookMessenger
-    }
-]
+      uri: "https://huggingface.co/sithumonline",
+      Icon: HuggingFace,
+    },
+  ];
+
   return (
     <div className="flex flex-col md:flex-row">
       <div class="w-full md:w-1/2 bg-gradient-to-r from-green-400 to-blue-500 flex flex-col justify-center p-10 md:p-0">
         <div className="flex justify-center">
           <div className="group h-auto sm:max-w-sm md:max-w-md xl:max-w-lg shadow-lg bg-white/60 backdrop-blur-[5px] md:m-6 lg:m-10 p-5 md:p-10 rounded-3xl transform hover:-rotate-6 transition-all duration-300">
-            <img id="image" src={sithum} className="rounded-3xl group-hover:rotate-[12deg] transition-all duration-300" />
+            <img
+              id="image"
+              src={sithum}
+              className="rounded-3xl group-hover:rotate-[12deg] transition-all duration-300"
+            />
           </div>
         </div>
       </div>
